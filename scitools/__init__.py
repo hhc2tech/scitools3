@@ -8,7 +8,7 @@ continue maintaining these modules in a new Python Library: sciren.
 For more information about sciren, please visit the website (that doesn't yet exist):
 https://onnoeberhard.com/sciren
 
-09-01-2018
+2018-01-09
 Onno Eberhard
 
 -----------------------------------------------------------------------------------

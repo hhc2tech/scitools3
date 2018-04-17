@@ -2,17 +2,25 @@
 
 SciTools was a Python package containing many useful tools for scientific
 computing in Python, built on top of other widely used
-packages such as NumPy, SciPy, ScientificPython, Matlotlib, Gnuplot,
+packages such as NumPy, SciPy, ScientificPython, Matplotlib, Gnuplot,
 VisIt, etc.
 
 However, the library only supported Python 2. With this newer version of
 scitools, I plan to remove Python 2 support completely and focus on porting
 useful existing modules of the package to Python 3.
 
-When the time is ready, I will include these versions of the scirools modules
+When the time is ready, I will include these versions of the scitools modules
 in Python package `sciren`. Maybe, when you are reading this, the time is
 already long ready (or long gone), then you will find out about sciren on
 this website: https://onnoeberhard.com/sciren
+
+### Update 2018-05-17
+I will abandon all work on this project (there hasn't been a lot), because I
+realize most modules are either not useful anymore, not really useful in general,
+or functions are better implemented in larger open source projects.
+Because of this, this is as far as I will go with the scitools project; if I find
+that certain functions or classes are indeed useful, I will make sure to include
+them in the sciren package and mark them accordingly :)
 
 ## Credits
 

@@ -160,6 +160,8 @@ Here are examples on various plot commands:
 from __future__ import division
 from __future__ import print_function
 
+from textwrap import dedent as dd
+
 import math
 import sys
 from builtins import object
@@ -594,12 +596,12 @@ __all__ = ["Plotter", "plot"]
 def _demo():
     from numpy import linspace, exp, sin, pi
     x = linspace(-2, 2, 31)
-    y = exp(-0.5 * x**2) * sin(2 * pi * x)
-    data = """
-from numpy import linspace, exp, sin, pi
-x = linspace(-2, 2, 31)
-y = exp(-0.5*x**2)*sin(2*pi*x)
-"""
+    y = exp(-0.5 * x ** 2) * sin(2 * pi * x)
+    data = dd("""
+    from numpy import linspace, exp, sin, pi
+    x = linspace(-2, 2, 31)
+    y = exp(-0.5*x**2)*sin(2*pi*x)
+    """)
     cmd = ["plot(x, y)",
            "plot(x, y, draw_axes=False)",
            "plot(x, y, plot_slope=False)",
