@@ -1,4 +1,4 @@
-# SciTools
+# SciTools3
 
 SciTools was a Python package containing many useful tools for scientific
 computing in Python, built on top of other widely used
@@ -21,6 +21,11 @@ or functions are better implemented in larger open source projects.
 Because of this, this is as far as I will go with the scitools project; if I find
 that certain functions or classes are indeed useful, I will make sure to include
 them in the sciren package and mark them accordingly :)
+
+It can be installed using the command
+```
+pip install scitools3
+```
 
 ## Credits
 
