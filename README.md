@@ -14,7 +14,7 @@ in Python package `sciren`. Maybe, when you are reading this, the time is
 already long ready (or long gone), then you will find out about sciren on
 this website: https://onnoeberhard.com/sciren
 
-### Update 2018-05-17
+### Update 2018-04-17
 I will abandon all work on this project (there hasn't been a lot), because I
 realize most modules are either not useful anymore, not really useful in general,
 or functions are better implemented in larger open source projects.
